@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from sklearn.ensemble import RandomForestRegressor
+import joblib
 
 st.set_page_config(page_title="Laptop Price Predictor", page_icon="💻", layout="wide")
 
